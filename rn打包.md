@@ -4,7 +4,7 @@
 
 #gradle clean
 
-#./gradlew.bat assembleRelease
+##./gradlew.bat assembleRelease
 
 之后等待打包完毕即可。
 打包完毕之后，将android - app - build - outputs - apk — app-release.apk发送到android手机端即可安装
