@@ -1,10 +1,10 @@
-### 建议先删除android - app下面的build文件夹（不然可能出现无法删除android - app - build - resvalue的情况）
+### 1. 建议先删除android - app下面的build文件夹（不然可能出现无法删除android - app - build - resvalue的情况）
 
-### cd android
+### 2. cd android
 
-### gradle clean
+### 3. gradle clean
 
-### ./gradlew.bat assembleRelease
+### 4. ./gradlew.bat assembleRelease
 
 之后等待打包完毕即可。
 打包完毕之后，将android - app - build - outputs - apk — app-release.apk发送到android手机端即可安装
